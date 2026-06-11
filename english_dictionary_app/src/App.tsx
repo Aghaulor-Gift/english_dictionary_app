@@ -1,7 +1,8 @@
-import Dictionary from "./components/dictionary";
+import Dictionary from "./pages/Dictionary";
 
 function App() {
   return <Dictionary />;
 }
 
 export default App;
+

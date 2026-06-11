@@ -10,10 +10,10 @@ body {
   color: black;
 
   background: linear-gradient(
-    to bottom,
-    #7edec4 0%,
-    #1fd1bf 18%,
-    #19cdb9 100%
+  to bottom,
+  #7ee3d0 0%,
+  #06cea9 30%,
+  #04b895 100%
   );
 }
 
@@ -74,7 +74,8 @@ body {
 
 .result-section {
   width: 100%;
-  max-width: 340px;
+  max-width: 420px;
+  text-align: left;
 }
 
 .word-header {
@@ -85,8 +86,9 @@ body {
 
 .word-header h2 {
   margin: 0;
-  color: white;
+  color: black;
   font-size: 2.2rem;
+  font-weight: 700;
 }
 
 .audio-icon {
@@ -118,6 +120,7 @@ body {
   border-radius: 4px;
   width: 100%;
   box-sizing: border-box;
+  text-align: left;
 }
 
 .definition-card ol {
@@ -128,11 +131,21 @@ body {
 .definition-card li {
   margin-bottom: 18px;
   font-size: 0.9rem;
+  line-height: 1.6;
 }
 
 .definition-card p {
-  margin-top: 6px;
   font-size: 0.8rem;
+  margin-top: 5px;
+  color: #555;
+  font-style: italic;
+}
+
+
+.definition-group h4,
+.result-section h3,
+.transcription {
+  text-align: left;
 }
 
 .extra-section {
